@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(10, 40px);
+  grid-template-rows: repeat(10, 40px);
+  width: 400px;
+  margin: 20px auto;
+  gap: 2px;
+}
+
+.cell {
+  border: 1px solid #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  font-size: 12px;
+  position: relative;
+}
+
+.snake {
+  background-color: #f88;
+}
+
+.ladder {
+  background-color: #8f8;
+}
+
+.player {
+  background-color: #4af;
+  color: white;
+  font-weight: bold;
+}
+
+#controls {
+  margin-top: 20px;
+}
+.snake-tail {
+  background-color: #fdd;
+}
+
+.ladder-top {
+  background-color: #dfd;
+}
